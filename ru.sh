@@ -13,7 +13,7 @@ case $weekday in
         ;;
     5 ) begin="Sexta"; end=" "
         ;;
-    * ) echo -n "O RU só funciona em dias de semana!"
+    * ) echo -e "O RU só funciona em dias de semana!"
         exit
         ;;
 esac
